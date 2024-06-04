@@ -11,17 +11,17 @@ What is a complete, a full, a perfect, a balanced binary tree\
 
 ## Requirements
 ### General
-Allowed editors: `vi`, `vim`, `emacs`
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-You are allowed to use the standard library
-In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions should be included in your header file called binary_trees.h
-Don’t forget to push your header file
+Allowed editors: `vi`, `vim`, `emacs`\
+All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89\
+All your files should end with a new line\
+A README.md file, at the root of the folder of the project, is mandatory\
+Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl\
+You are not allowed to use global variables\
+No more than 5 functions per file\
+You are allowed to use the standard library\
+In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples\
+The prototypes of all your functions should be included in your header file called binary_trees.h\
+Don’t forget to push your header file\
 All your header files should be include guarded
 
 
@@ -48,11 +48,11 @@ Please use the following data structures and types for binary trees. Don’t for
 	
 	typedef struct binary_tree_s binary_tree_t;
 __Binary Search Tree__
-	typedef struct binary_tree_s bst_t;
+`typedef struct binary_tree_s bst_t;`
 __AVL Tree__
-	typedef struct binary_tree_s avl_t;
+`typedef struct binary_tree_s avl_t;`
 __Max Binary Heap__
-	typedef struct binary_tree_s heap_t;
+`typedef struct binary_tree_s heap_t;`
 Note: For tasks 0 to 23 (included), you have to deal with simple binary trees. They are not BSTs, thus they don’t follow any kind of rule.
 
 __Print function__
@@ -66,8 +66,8 @@ __0. New node__
 Write a function that creates a binary tree node
 
 Prototype: `binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);`
-Where parent is a pointer to the parent node of the node to create\
-And value is the value to put in the new node\
+Where `parent` is a pointer to the parent node of the node to create\
+And `value` is the value to put in the new node\
 When created, a node does not have any child\
 Your function must return a pointer to the new node, or NULL on failure
 
@@ -103,7 +103,7 @@ Your function must return a pointer to the new node, or NULL on failure
 	  .--(012)--.         .--(402)--.
 	(006)     (016)     (256)     (512)
 	alex@/tmp/binary_trees$
-Repo:
+Repo:\
 
-GitHub repository: `binary_trees`
+GitHub repository: `binary_trees`\
 File: `0-binary_tree_node.c`
