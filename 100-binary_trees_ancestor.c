@@ -34,7 +34,7 @@ binary_tree_t *binary_trees_ancestor(
 		first = first->parent;
 		second = second->parent;
 	}
-	return first == second ? (binary_tree_t *)first : NULL;
+	return (first == second ? (binary_tree_t *)first : NULL);
 }
 
 /**
