@@ -3,7 +3,7 @@
 /**
  * binary_tree_is_perfect - chexks if ttree is perfect
  * @tree: the pointer to the root node
- * @Rerurn: 1 or 0
+ * Return: 1 or 0
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
@@ -40,7 +40,7 @@ int calculate_ref_height(const binary_tree_t *tree)
  * @tree: pointer to the root node
  * @height: depth of node
  * @level: current level of node
- * Reteurn: 1 or0
+ * Return: 1 or 0
  */
 int is_perfect(const binary_tree_t *tree, int height, int level)
 {
